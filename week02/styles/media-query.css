@@ -10,10 +10,11 @@ header, main, footer{
     background-color: #6fb5ff;
 }
 
-main{
+.grid{
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1rem;
+    align-items: center;
 }
 
 section{
